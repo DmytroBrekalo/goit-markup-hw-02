@@ -1,0 +1,111 @@
+body{
+    background-color: #FFFFFF;
+    color: #757575;
+}
+
+/* Nav */
+
+a{
+    text-decoration-line: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.logo,
+.logo-foot{
+    color: #2196F3;
+}
+
+.logo span{
+    color: #000000;
+}
+
+.site-nav .link{
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts .link:hover,
+.contacts .link:focus,
+.contacts-foot .link:hover,
+.contacts-foot .link:focus{
+    color: #2196F3;
+}
+
+.site-nav .link.current{
+    color: #2196F3;
+}
+
+.contacts .link{
+    color: #757575;
+}
+
+/* Head */
+
+.action{
+    background-color: #2F303A;
+}
+
+.action-title{
+    color: #FFFFFF;
+}
+
+.button{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+/* Features */
+
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.features-tittle{
+    color: #212121;
+}
+
+/* work */
+
+.work-tittle,
+.team-tittle{
+    color: #212121;
+}
+
+.team{
+    background-color: #F5F4FA;
+}
+
+.team-list .tittle{
+    color: #212121;
+}
+
+/* foot */
+
+.page-foot{
+    background-color: #2F303A;
+}
+
+.logo-foot span{
+    color: #FFFFFF;
+}
+
+.contacts-foot .link{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-foot .map{
+    color: #FFFFFF;
+}
