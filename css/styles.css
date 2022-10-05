@@ -24,7 +24,7 @@ ul{
     line-height: 1.19;
 }
 
-.logo span{
+.accent-head{
     color: #000000;
 }
 
@@ -125,7 +125,7 @@ button{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    text-align: center
+    text-align: center;
 }
 
 .team{
@@ -152,7 +152,7 @@ button{
     background-color: #2F303A;
 }
 
-.logo-foot span{
+.logo-foot .accent-foot{
     color: #FFFFFF;
 }
 
