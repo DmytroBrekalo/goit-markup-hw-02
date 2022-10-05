@@ -1,6 +1,8 @@
 body{
     background-color: #FFFFFF;
     color: #757575;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 /* Nav */
@@ -16,12 +18,23 @@ ul{
 .logo,
 .logo-foot{
     color: #2196F3;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 .logo span{
     color: #000000;
 }
 
+
+.head-list{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
 .site-nav .link{
     color: #212121;
 }
@@ -51,11 +64,28 @@ ul{
 
 .action-title{
     color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+button{
+    font-family: inherit;
 }
 
 .button{
     background-color: #2196F3;
     color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* Features */
@@ -73,25 +103,49 @@ ul{
     margin: -1px;
 }
 
-.features-tittle{
+.features-title{
     color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.features .text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 /* work */
 
-.work-tittle,
-.team-tittle{
+.work-title,
+.team-title{
     color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center
 }
 
 .team{
     background-color: #F5F4FA;
 }
 
-.team-list .tittle{
+.team-list .title{
     color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 
+.team-list .text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
 /* foot */
 
 .page-foot{
@@ -102,21 +156,50 @@ ul{
     color: #FFFFFF;
 }
 
+address{
+    font-style: inherit;
+}
 .contacts-foot .link{
     color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .contacts-foot .map{
     color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 /* Portfolio */
 
 .button-filters{
     background-color: #F5F4FA;
-    color: #212121
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+}
+
+.button-filters:hover,
+.button-filters:focus{
+    background-color: #2196F3;
+    color: #FFFFFF;
 }
 
 .cards-title{
     color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.cards .text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
 }
