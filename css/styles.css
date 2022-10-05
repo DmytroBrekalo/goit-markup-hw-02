@@ -109,3 +109,14 @@ ul{
 .contacts-foot .map{
     color: #FFFFFF;
 }
+
+/* Portfolio */
+
+.button-filters{
+    background-color: #F5F4FA;
+    color: #212121
+}
+
+.cards-title{
+    color: #212121;
+}
